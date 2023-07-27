@@ -1,0 +1,16 @@
+…or create a new repository on the command line
+echo "# SCIC_JavaScript_Task" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/marufislamnadim/SCIC_JavaScript_Task.git
+git push -u origin main
+
+
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/marufislamnadim/SCIC_JavaScript_Task.git
+git branch -M main
+git push -u origin main
