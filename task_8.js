@@ -2,6 +2,14 @@
 
 // Solution: ----------
 
+// case 1:
+const arr_1 = [4];
+// case 2:
+const arr_2 = [3, 5, 2, 2, 4, 1, 4, -3, 0, -2];
+// case 3:
+const arr_3 = [2, 2, 2, 2, 2];
+
+// function definition
 function findSecondSmall(arr) {
     // array element checking
     if (arr.length < 2) {
@@ -35,13 +43,7 @@ function findSecondSmall(arr) {
     }
 }
 
-// case 1:
-const arr_1 = [4];
-// case 2:
-const arr_2 = [3, 5, 2, 2, 4, 1, 4, -3, 0, -2];
-// case 3:
-const arr_3 = [2, 2, 2, 2, 2];
-
+// function invoking
 const secondSmallest = findSecondSmall(arr_2);
 
 if (secondSmallest !== false) {

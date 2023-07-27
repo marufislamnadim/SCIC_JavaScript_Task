@@ -3,6 +3,13 @@
 
 // Solution: ----------
 
+//test case 1: 
+const arr_1 = [1,2,3,4,5];
+//test case 2: 
+const arr_2= [3, 5, 2, 5, 3, 3, 1, 4, 5, 5, 0, 20];
+
+
+// function definition
 const FindMostFrequent = (arr)=>{
     let record = {}
     let maxValue = 0;
@@ -24,12 +31,9 @@ const FindMostFrequent = (arr)=>{
     return maxKey
 }
 
-//test case 1: 
-const arr_1 = [1,2,3,4,5];
-//test case 2: 
-const arr_2= [3, 5, 2, 5, 3, 3, 1, 4, 5, 5, 0, 20];
+// function invoking
+const mostFrequent = FindMostFrequent(arr_2)
 
-const mostFrequent = FindMostFrequent(arr_1)
 if(mostFrequent==1){
     console.log(`No element found which occurred more then one time in the array` )
 }

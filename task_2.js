@@ -5,8 +5,8 @@
 // input array
 const arr = [2, -5, 10, -3, 7, -11, 11, 0.2];
 // positive elements filtering
-const filtered = arr.filter(ele =>  ele>0)
+const filtered = arr.filter((ele) => ele > 0);
 // summing all positive numbers
-const sum = filtered.reduce((prev, curr)=>prev+curr,0)
+const sum = filtered.reduce((prev, curr) => prev + curr, 0);
 // printing
-console.log(sum)
+console.log(sum);
